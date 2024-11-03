@@ -1,0 +1,83 @@
+/* General styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+}
+
+.about-container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #FFF8E3;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-description {
+    font-size: 18px;
+    color: #333333;
+    margin: 10px 0;
+}
+
+h2 {
+    color: maroon;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+/* List styles */
+.values-list {
+    list-style-type: disc;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 600px;
+    color: #333333;
+}
+
+.values-list li {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+/* Table styles */
+.team-table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.team-table th, .team-table td {
+    padding: 10px;
+    border: 1px solid #333333;
+    font-size: 16px;
+}
+
+.team-table th {
+    background-color: #DED299;
+    color: #333333;
+    font-weight: bold;
+}
+
+.team-table td {
+    background-color: #f9f9f9;
+}
+
+/* Back link styles */
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: maroon;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
